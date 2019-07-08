@@ -1,0 +1,22 @@
+html {
+  background: #0025FF;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.logo img {
+  width: 140px;
+  margin-top: 55px;
+}
