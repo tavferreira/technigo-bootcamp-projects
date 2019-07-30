@@ -7,7 +7,7 @@ The code folder containers a starter html file, a css file and photos of your cl
 
 It should include a photo of each student, their name and should look something like this design:
 
-![Design](https://github.com/Technigo/assignment-1-yearbook/blob/master/design.png)
+![Design](https://github.com/Technigo/project-2/blob/master/yearbook-design.jpg)
 
 ## Design Inspiration 🎨
 
@@ -60,7 +60,7 @@ https://bernatfortet.com/
 
 ## How to get help 🆘
 
-Ask for help and share your knowledge about this project with the [SOMETHING] tag on [Stack Overflow](https://stackoverflow.com/c/technigo/questions). Talk to your team on Slack and help each other out. Do some research about your problem, you are surely not the first one with this problem, Google is your friend 🙂. And you can of course also reach out to your teachers. 
+Ask for help and share your knowledge about this project with the [SOMETHING] tag on [Stack Overflow](https://stackoverflow.com/c/technigo/questions). Talk to your team on Slack and help each other out. Do some research about your problem, you are surely not the first one with this problem, Google is your friend 🙂. And you can of course also reach out to your teachers.
 
 ## Stretch Goals 🏃‍♂
 
