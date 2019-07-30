@@ -7,18 +7,18 @@ The code folder containers a starter html file, a css file and photos of your cl
 
 It should include a photo of each student, their name and should look something like this design:
 
-![Design](https://github.com/Technigo/project-2/blob/master/yearbook-design.jpg)
+![Design](https://github.com/Technigo/project-2/blob/master/yearbook-design.png)
 
 ## Design Inspiration 🎨
 
 Not a designer? Get some design inspiration 👇
 
-http://merijnhos.com/
-https://www.behance.net/gallery/41464103/Agency-Website?tracking_source=search%257Cportfolio%2Bdesign
-https://www.behance.net/gallery/72997471/Social-Media-Citrosco?tracking_source=search%257Cportfolio%2Bdesign
-https://www.pinterest.se/pin/AfX0DS0kCplxDFihpUEi3zv-NFTHzb0GDzpYPX9c6u6kX3m9_e_FU-s/
-https://www.pinterest.se/pin/480900066445413177/
-https://bernatfortet.com/
+- [here](http://merijnhos.com/)
+- [here](https://www.behance.net/gallery/41464103/Agency-Website?tracking_source=search%257Cportfolio%2Bdesign)
+- [here](https://www.behance.net/gallery/72997471/Social-Media-Citrosco?tracking_source=search%257Cportfolio%2Bdesign)
+- [here](https://www.pinterest.se/pin/AfX0DS0kCplxDFihpUEi3zv-NFTHzb0GDzpYPX9c6u6kX3m9_e_FU-s/)
+- [here](https://www.pinterest.se/pin/480900066445413177/)
+- [and here](https://bernatfortet.com/)
 
 ## What you will learn 🧠
 
