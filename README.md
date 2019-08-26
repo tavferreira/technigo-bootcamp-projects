@@ -1,23 +1,25 @@
 `PROJECT 2`
 
-# Build your team yearbook
+# Build a News Site
 
-This week’s project is to create a yearbook-style image gallery of your team.
-The code folder containers a starter html file, a css file and photos of your classmates.
+This week’s project is to create a classic magazine or newspaper site. The site should contain a header with a name of the site, a logo and a navbar. This should also change depending on if you visit the site from a mobile, tablet or desktop. Further the site should have a big news section and a grid of cards with other news. On desktop sized screens, there should be four cards in a row, two in a row on tablets and on mobile, there should just be one card on each row.
 
-It should include a photo of each student, their name and should look something like this design:
+Something like this:
+![Design](https://github.com/Technigo/project-2/blob/master/newssite-sketch.png)
 
-![Design](https://github.com/Technigo/project-2/blob/master/yearbook-design.png)
+The code folder contains a starter html file, a css file, and a Technigo logo to use if you want to.
+
+Feel free to make a news site about whatever you like, it could be tech, sports, dinosaurs or avocados. The focus on this project is to practise what you've learned about responsive design and the layout technique flexbox
 
 ## Design Inspiration 🎨
 
-Not a designer? Get some design inspiration 👇
+Not a designer? Get some design inspiration for your grid 👇
 
-- [here](http://merijnhos.com/)
-- [here](https://www.behance.net/gallery/41464103/Agency-Website?tracking_source=search%257Cportfolio%2Bdesign)
-- [here](https://www.behance.net/gallery/72997471/Social-Media-Citrosco?tracking_source=search%257Cportfolio%2Bdesign)
+- [here](https://kit.se/)
+- [here](https://www.thesitemagazine.com/thesitemagazine)
+- [here](https://www.overtureglobal.io/)
+- [here](https://mikemcquade.com/)
 - [here](https://www.pinterest.se/pin/AfX0DS0kCplxDFihpUEi3zv-NFTHzb0GDzpYPX9c6u6kX3m9_e_FU-s/)
-- [here](https://www.pinterest.se/pin/480900066445413177/)
 - [and here](https://bernatfortet.com/)
 
 ## What you will learn 🧠
@@ -34,12 +36,11 @@ Not a designer? Get some design inspiration 👇
 
 ## Requirements 🧪
 
-- Each person should have; name and picture.
 - Use flexbox to layout the page.
 - Create a responsive design with the following views; Desktop 4 columns, tablet 2 columns, mobile 1 column.
 - Style your page.
-- On hover, show the team member's email address.
 - Code follows Technigo’s code guidelines.
+- Site should have a header, a main news article, a grid of news articles.
 - Submit a link to your published webpage. [Länk i Canvas]
 - Contribute by helping others with this project on Stackoverflow.
 - [Lämna i Canvas]
