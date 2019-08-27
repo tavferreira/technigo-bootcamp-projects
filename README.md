@@ -8,9 +8,12 @@ It could look something like this:
 ![Design](https://github.com/Technigo/project-3/blob/master/business-web.png)
 
 We want you to practise what we've gone through this week so the website should contain these three parts:
+
 | hero video | signup form | accordion |
-|--|--|--|
-| ![hero video](https://github.com/Technigo/project-3/blob/master/hero-video.png) | ![signup form](https://github.com/Technigo/project-3/blob/master/sign-up.png) | ![accordion](https://github.com/Technigo/project-3/blob/master/FAQ-design.png) |
+|---------|---------|---------|
+| <img src="https://github.com/Technigo/project-3/blob/master/hero-video.png" alt="hero-video" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/sign-up.png" alt="signup-form" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/FAQ-design.png" alt="FAQ-accordion" width="300"/> |
+
+
 
 ###Hero video
 There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. You should **add a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
