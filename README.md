@@ -4,7 +4,7 @@
 
 This week’s project is to create a site for a company of your choice. You can come up with your own fantasy company or use an excitsting one.
 
-![Design](https://github.com/Technigo/assignment-accordion/blob/master/hero-video.png)
+![Design](https://github.com/Technigo/project-3/blob/master/hero-video.png)
 
 There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. Today we're **create a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
 
@@ -12,7 +12,7 @@ In this assignment we have collected six video files, three .mp4 and three .webm
 
 Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins.
 
-![Design](https://github.com/Technigo/assignment-accordion/blob/master/sign-up.png)
+![Design](https://github.com/Technigo/project-3/blob/master/sign-up.png)
 
 You should also build a **signup form** for a web service and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
 
@@ -35,7 +35,7 @@ Try submitting your form to see how the response from httpbin looks:
 - Check the checkboxes & submit.
 - Leave the checkboxes unchecked & submit.
 
-![Design](https://github.com/Technigo/assignment-accordion/blob/master/FAQ-design.png)
+![Design](https://github.com/Technigo/project-3/blob/master/FAQ-design.png)
 
 The website should also have an **accordion**, meaning an area that can collapse to show and hide text. These are very often used on FAQ-pages, but you can choose what ever you want for your accordion.
 
