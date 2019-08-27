@@ -4,17 +4,21 @@
 
 This week’s project is to create a site for a company of your choice. You can come up with your own fantasy company or use an excitsting one.
 
-![Design](https://github.com/Technigo/project-3/blob/master/hero-video.png)
+It could look something like this:
+![Design](https://github.com/Technigo/project-3/blob/master/business-web.png)
 
-There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. Today we're **create a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
+We want you to practise what we've gone through this week so the website should contain these three parts:
+| hero video | signup form | accordion |
+|--|--|--|
+| ![hero video](https://github.com/Technigo/project-3/blob/master/hero-video.png) | ![signup form](https://github.com/Technigo/project-3/blob/master/sign-up.png) | ![accordion](https://github.com/Technigo/project-3/blob/master/FAQ-design.png) |
 
-In this assignment we have collected six video files, three .mp4 and three .webm, in three video sizes for you to use. You can find them in the video folder of this repo. We will use the smallest format (360x240px) for mobile, second largest (720x480px) for tablets and the largest format (1280x720px) for desktop. You can of course choose you're own videos as well.
+###Hero video
+There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. You should **add a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
 
-Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins.
+We have collected six video files, three .mp4 and three .webm, in three video sizes for you to use. You can find them in the video folder of this repo. You can of course choose you're own videos as well. Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins.
 
-![Design](https://github.com/Technigo/project-3/blob/master/sign-up.png)
-
-You should also build a **signup form** for a web service and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
+###Signup form
+You should also build a **signup form** and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
 
 Build a form that at a minimum contains:
 
@@ -35,9 +39,8 @@ Try submitting your form to see how the response from httpbin looks:
 - Check the checkboxes & submit.
 - Leave the checkboxes unchecked & submit.
 
-![Design](https://github.com/Technigo/project-3/blob/master/FAQ-design.png)
-
-The website should also have an **accordion**, meaning an area that can collapse to show and hide text. These are very often used on FAQ-pages, but you can choose what ever you want for your accordion.
+###Accordion
+The website should also have an **accordion**, meaning an area that can collapse to show and hide text. These are very often used on FAQ sections, but you can choose what ever you want for your accordion.
 
 You accordion should fulfill the following basic requirements:
 
