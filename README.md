@@ -119,7 +119,6 @@ Make sure you've commited and pushed a version of your project before starting w
 
 **_Help for stretch goals_**
 
-- [How to make a circle in CSS](https://davidwalsh.name/css-circles)
 - [nth-child in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child)
 - [Style the cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 - [Styling HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
