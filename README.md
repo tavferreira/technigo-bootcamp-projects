@@ -8,19 +8,22 @@ It could look something like this:
 ![Design](https://github.com/Technigo/project-3/blob/master/business-web.png)
 
 We want you to practise what we've gone through this week so the website should contain these three parts:
-| hero video | signup form | accordion |
-|--|--|--|
-| ![hero video](https://github.com/Technigo/project-3/blob/master/hero-video.png) | ![signup form](https://github.com/Technigo/project-3/blob/master/sign-up.png) | ![accordion](https://github.com/Technigo/project-3/blob/master/FAQ-design.png) |
 
-###Hero video
+| hero video | signup form | accordion |
+|---------|---------|---------|
+| <img src="https://github.com/Technigo/project-3/blob/master/hero-video.png" alt="hero-video" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/sign-up.png" alt="signup-form" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/FAQ-design.png" alt="FAQ-accordion" width="300"/> |
+
+
+
+### Hero video
 There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. You should **add a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
 
 We have collected six video files, three .mp4 and three .webm, in three video sizes for you to use. You can find them in the video folder of this repo. You can of course choose you're own videos as well. Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins.
 
-###Signup form
+### Signup form
 You should also build a **signup form** and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
 
-Build a form that at a minimum contains:
+Build a form that contains all or some of these:
 
 - 2 x Text fields
 - 1 x A password field
@@ -39,7 +42,7 @@ Try submitting your form to see how the response from httpbin looks:
 - Check the checkboxes & submit.
 - Leave the checkboxes unchecked & submit.
 
-###Accordion
+### Accordion
 The website should also have an **accordion**, meaning an area that can collapse to show and hide text. These are very often used on FAQ sections, but you can choose what ever you want for your accordion.
 
 You accordion should fulfill the following basic requirements:
@@ -94,7 +97,7 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
 
 ## How to get help 🆘
 
-Ask for help and share your knowledge about this project with the [SOMETHING] tag on [Stack Overflow](https://stackoverflow.com/c/technigo/questions). Talk to your team on Slack and help each other out. Do some research about your problem, you are surely not the first one with this problem, Google is your friend 🙂. And you can of course also reach out to your teachers.
+Ask for help and share your knowledge about this project with the 'business-site-project' tag on [Stack Overflow](https://stackoverflow.com/c/technigo/questions). Talk to your team on Slack and help each other out. Do some research about your problem, you are surely not the first one with this problem, Google is your friend 🙂. And you can of course also reach out to your teachers.
 
 ## Stretch Goals 🏃‍♂
 
@@ -116,7 +119,6 @@ Make sure you've commited and pushed a version of your project before starting w
 
 **_Help for stretch goals_**
 
-- [How to make a circle in CSS](https://davidwalsh.name/css-circles)
 - [nth-child in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child)
 - [Style the cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 - [Styling HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
