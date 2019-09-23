@@ -23,7 +23,7 @@ We have collected six video files, three .mp4 and three .webm, in three video si
 ### Signup form
 You should also build a **signup form** and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
 
-Build a form that at a minimum contains:
+Build a form that contains all or some of these:
 
 - 2 x Text fields
 - 1 x A password field
