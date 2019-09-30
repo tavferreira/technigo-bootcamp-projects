@@ -78,10 +78,8 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
 ## Requirements 🧪
 
 - Code follows Technigo’s code guidelines.
-- Site should have a header with responsive video, a signup form, and a FAQ accordion.
-- Submit a link to your published webpage. [Länk i Canvas]
+- Site should have a header with responsive image/video, a signup form, and a FAQ accordion.
 - Contribute by helping others with this project on Stackoverflow.
-- [Lämna i Canvas]
 - If selected; demo your solution for your team.
 
 ## How to hand in the code 🎯
@@ -95,7 +93,7 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
   ```
 
 - Navigate to your repo and create a Pull Request into the Technigo repo
-- Wait for the code review from your teachers, then deploy your project to Netlify
+- Wait for the code review from your teachers
 
 ## How to get help 🆘
 
