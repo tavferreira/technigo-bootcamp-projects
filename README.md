@@ -15,10 +15,12 @@ We want you to practise what we've gone through this week so the website should 
 
 
 
-### Hero video
-There is a great design trend right now where websites contain a top section with background image or video. It's called hero video or hero image. You should **add a hero video** that is responsive and retrieves the right video file depending on the size of the screen using media queries.
+### Hero image or video
+There is a great design trend right now where websites contain a top section with background image or video. It's called hero image or hero video. You should **add a hero image or video** that is responsive.
 
-We have collected six video files, three .mp4 and three .webm, in three video sizes for you to use. You can find them in the video folder of this repo. You can of course choose you're own videos as well. Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins.
+You can find free images to use on [unsplash](https://unsplash.com/)
+
+We have collected six video files, three .mp4 and three .webm, in three video sizes, if you want to use videos. You can find them in the video folder of this repo. You can of course choose you're own videos as well. Use media queries to display the right video element for each screen size. Hide video elements you don't want to show with `display: none` in your CSS. Video in full width for every screen size. Place the video at to top of your page with no margins. If you want to learn about how to resize a video to fit the header, [check this out](https://www.w3schools.com/css/css3_object-fit.asp)
 
 ### Signup form
 You should also build a **signup form** and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.
