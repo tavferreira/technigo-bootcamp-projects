@@ -9,7 +9,7 @@ It could look something like this:
 
 We want you to practise what we've gone through this week so the website should contain these three parts:
 
-| hero video | signup form | accordion |
+| hero image/video | signup form | accordion |
 |---------|---------|---------|
 | <img src="https://github.com/Technigo/project-3/blob/master/hero-video.png" alt="hero-video" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/sign-up.png" alt="signup-form" width="300"/> | <img src="https://github.com/Technigo/project-3/blob/master/FAQ-design.png" alt="FAQ-accordion" width="300"/> |
 
