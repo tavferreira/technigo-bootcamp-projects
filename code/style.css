@@ -1,4 +1,178 @@
 html {
   background: #0025ff;
   color: #fff;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*** HEADER ***/
+
+header{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+  margin: 10px 14px;
+}
+
+header img {
+  width: 80px;
+  height: 50px;
+  padding: 8px 16px;
+}
+
+header p {
+  color: #000;
+  font-size: 28px;
+  font-weight: 100;
+  width: 100%;
+  padding: 8px;
+}
+
+nav {
+  display: none;
+}
+
+nav a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0px 32px;
+}
+
+/*** BIG NEWS SECTION ***/
+
+.big-news {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 0px;
+  background: gray;
+  border: 2px solid orange;
+  box-shadow: 3px 3px 0 0 darkorange;
+}
+
+.big-news img {
+  width: 100%;
+}
+
+.big-news article {
+  margin: 5px 0px 10px 0px;
+  padding: 5px;
+  height: 90px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.big-news a {
+  text-decoration: none;
+  color: #fff;
+  background: brown; 
+  padding: 0px 10px;
+
+}
+/*** SEPARATOR ***/
+.separator {
+
+}
+/*** OTHER NEWS SECTION***/
+
+.other-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.other-news a {
+  text-decoration: none;
+  color: #fff;
+  background: darkgrey;
+  text-align: center;
+  border: 2px solid orange;
+  margin: 10px 0px;
+  box-shadow: 3px 3px 0 0 darkorange;
+}
+
+.other-news img {
+  width: 100%;
+}
+
+/*** MEDIA QUERIES ***/
+@media (min-width: 650px) {
+
+  header {
+    justify-content: space-evenly;
+  }
+
+  header img {
+    order: 1;
+  }
+
+  header p {
+    display: none;
+  }
+
+  nav {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .nav-right {
+    order: 2;
+  }
+
+  .big-news {
+    flex-direction: row;
+    height: 400px;
+    margin: 16px 12px;
+  }
+
+  .big-news img {
+    width: 400px;
+  }
+
+  .big-news article {
+   height: 100%;
+   margin: 0px;
+   padding: 0px 16px;
+  }
+
+  .big-news a {
+    display: none;
+  }
+
+  .other-news {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+
+  }
+
+  .other-news a {
+    margin: 0px 10px 20px;
+    width: 46%;
+    flex-grow: 1 1 21%;
+  }
+
+  .other-news a:nth-of-type(n+1) {
+    margin-left: 14px;
+  }
+}
+
+@media (min-width: 900px) {
+
+  header img {
+    order: 0;
+  }
+
+  header p {
+    display: inline-flex;
+  }
+
+  nav a {
+    padding: 0px 16px;
+  }
+
+  .other-news a {
+    width: 23%;
+  }
 }
