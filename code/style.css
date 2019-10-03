@@ -161,6 +161,7 @@ nav a:hover {
     text-align: justify;
     overflow: scroll;
     height: 150px;
+    overflow-x: hidden;
   }
 
   .big-news a {
