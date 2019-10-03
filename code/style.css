@@ -1,13 +1,8 @@
 html {
   background: #c7e0f9;
-  color: #000;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
-}
-
-body {
-  padding: 5px;
 }
 
 /*** HEADER ***/
@@ -23,15 +18,9 @@ header img {
   padding: 8px 16px;
 }
 
-header p {
+header p { width: 100%; }
 
-  width: 100%;
-  padding: 8px;
-}
-
-nav {
-  display: none;
-}
+nav { display: none; }
 
 a {
   text-decoration: none;
@@ -44,7 +33,6 @@ a:visited {
 
 nav a {
   font-size: 24px;
-
   padding: 0px 32px;
   border-radius: 15px;
 }
@@ -62,24 +50,22 @@ nav a:hover {
   align-items: center;
   background: #f2f2f2;
   color: #0025ff;
+  padding: 10px;
 }
 
 .big-news img {
-  margin: 15px 5px 10px 5px;
-  width: 95%;
+  width: 100%;
 }
 
 .big-news article {
   height: 95px;
+  padding: 5px 0px;
   text-align: justify;
   overflow: hidden;
-  padding: 0px 15px;
 }
 
 .big-news a {
   text-decoration: none;
-  padding: 10px 10px;
-  margin-bottom: 10px;
   border-radius: 15px;
 }
 
@@ -93,7 +79,7 @@ nav a:hover {
 .separator {
   height: 5px;
   background: #0025ff;
-  margin: 15px 0px 5px 0px;
+  margin-top: 10px;
 }
 
 /*** OTHER NEWS SECTION***/
@@ -109,8 +95,13 @@ nav a:hover {
   color: #0025ff;
   background: #f2f2f2;
   text-align: center;
-  margin: 10px 0px;
-  padding: 10px 10px 0px 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.other-news a h3 {
+  padding: 0px;
+  margin: 5px;
 }
 
 .other-news a:hover {
@@ -155,12 +146,10 @@ footer {
   }
 
   .big-news {
-    margin: 16px 12px;
     flex-direction: column;
   }
 
   .big-news img {
-    padding: 0px 5px 0px 5px;
     flex-grow: 1;
     height: 100%;
   }
@@ -170,22 +159,16 @@ footer {
     overflow: scroll;
     height: 150px;
     overflow-x: hidden;
-    margin-bottom: 10px;
   }
 
   .big-news a {
     display: none;
   }
 
-  .separator {
-    margin: 16px 12px 6px 12px;
-  }
-
   .other-news {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0px 10px;
   }
 
   .other-news a {
@@ -214,16 +197,16 @@ footer {
     flex-direction: row;
     height: 400px;
     width: auto;
-    padding: 10px 10px 15px 5px;
   }
 
   .big-news img {
-    width: 40%;
+    width: 45%;
   }
 
   .big-news article {
     font-size: 20px;
-    height: 400px;
+    height: 100%;
+    padding-left: 10px;
   }
 
   .other-news {
@@ -232,7 +215,6 @@ footer {
   }
 
   .other-news a {   
-    margin: 10px 11px;
     flex-basis: 20%;
   }
 }
