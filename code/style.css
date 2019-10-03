@@ -170,6 +170,7 @@ footer {
     overflow: scroll;
     height: 150px;
     overflow-x: hidden;
+    margin-bottom: 10px;
   }
 
   .big-news a {
@@ -213,7 +214,7 @@ footer {
     flex-direction: row;
     height: 400px;
     width: auto;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 15px 5px;
   }
 
   .big-news img {
