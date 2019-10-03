@@ -33,16 +33,20 @@ nav {
   display: none;
 }
 
-nav a {
-  font-size: 24px;
+a {
   text-decoration: none;
-  padding: 0px 32px;
   color: #0025ff;
-  border-radius: 15px;
 }
 
-nav a:visited {
+a:visited {
   color: #0025ff;
+}
+
+nav a {
+  font-size: 24px;
+
+  padding: 0px 32px;
+  border-radius: 15px;
 }
 
 nav a:hover {
@@ -77,10 +81,6 @@ nav a:hover {
   padding: 10px 10px;
   margin-bottom: 10px;
   border-radius: 15px;
-}
-
-.big-news a:visited {
-  color: #0025ff;
 }
 
 .big-news a:hover {
@@ -121,6 +121,14 @@ nav a:hover {
 .other-news img {
   width: 100%;
 }
+
+/*** footer ***/
+footer {
+  font-weight: bold;
+  text-align: right;
+  padding: 30px 10px 0px 0px;
+}
+
 
 /*** MEDIA QUERIES ***/
 @media screen and (min-width: 650px) {
