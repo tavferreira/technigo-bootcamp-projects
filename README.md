@@ -65,7 +65,7 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
 
 ## What you will learn 🧠
 
-- Use video for responsive webpages
+- Use image or video in the header, for responsive webpages
 - How to use HTML forms and simple requests
 - How to modify the DOM using Javascript
 
@@ -81,6 +81,7 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
 - Site should have a header with responsive image/video, a signup form, and a FAQ accordion.
 - Contribute by helping others with this project on Stackoverflow.
 - If selected; demo your solution for your team.
+- Deploy your site, when the code review is done.
 
 ## How to hand in the code 🎯
 
@@ -93,7 +94,7 @@ The JavaScript file is set up to add toggle an ".active" class on the title divs
   ```
 
 - Navigate to your repo and create a Pull Request into the Technigo repo
-- Wait for the code review from your teachers
+- Wait for the code review from your teachers, then deploy the site on Netlify
 
 ## How to get help 🆘
 
