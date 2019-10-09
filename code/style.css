@@ -1,19 +1,16 @@
 html, body {
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 0px;
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
 }
 
-header {
-  position: relative;
-}
-
 video {
-  height: 50vh;
+  height: 95vh;
   width: 100%;
   object-fit: cover;
+  margin-top: 60px;
 }
 
 .content {
@@ -25,15 +22,16 @@ video {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  z-index: 1000;
-
 }
 
-.content a {
-  text-decoration: none;
+.links {
+  display: flex;
+}
+
+.content p {
   color: #fff;
   margin-right: 20px;
-
+  background: #000;
 }
 
 .logo img {
@@ -41,16 +39,50 @@ video {
   padding: 20px;
 }
 
+.welcome-text {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  height: 50%;
+  width: 90%;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.568);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*** ARTICLE CONTAINS BOTH FAQ AND SIGNUP FORM ***/
 
-article {
-  display: flex;
-  flex-direction: column;
+.signup-form {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  height: 50%;
+  width: 90%;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.568);
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
 label {
   display: block;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+section {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  height: 50%;
+  width: 90%;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.568);
+  display: none;
+  flex-direction: column;
 }
 
 /*** FAQ CLASSES ***/
@@ -76,8 +108,15 @@ this can be used for the FAQ-accordion. read more here: https://www.w3schools.co
   display: block;
 }
 
+.hide {
+  display: none;
+}
+
 /** MEDIA QUERIES**/
 @media (min-width: 650px) {
+  video {
+    margin-top: 0px;
+  }
   .content {
     font-size: 1.9rem;
     font-weight: bold;

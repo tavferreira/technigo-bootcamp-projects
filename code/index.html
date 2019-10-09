@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project 3</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- video or image as a header is cool :) -->
-    <header>
-      <div class="hero-video">
-        <video preload autoplay muted loop playsinline>
-          <source src="videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
-          <source src="videos/SampleVideo_1280x720_1mb.webm" type="video/webm">
-          <p>This browser doesn't support video...</p>
-        </video>
-      </div>
-      <div class="content">
-        <div class="logo">
-          <img src="images/logo.svg" alt="Company logo">
-        </div>
-        <div class="links">
-          <a href="#">FAQ</a>
-          <a href="#">Sign Up</a>
-        </div>
-      </div>
-    </header>
-    <article>
-      <!-- Signup form -->
-      <div class="signup-form">
-        <form action="http://httpbin.org/anything" method="POST">
-          <label>
-            First Name
-            <input type="text" name="firstName" required>
-            Last Name
-            <input type="text" name="lastName" required>
-          </label>
-          <label>
-            Password
-            <input type="password" name="password" required>
-            <input type="radio" name="student">
-            Student
-            <input type="radio" name="teacher">
-            Teacher
-          </label>
-          <label>
-            <input type="checkbox" name="tos">
-            I accept the <a href="#">Terms & Conditions</a>
-          </label>
-          <label>
-            <input type="checkbox" name="newsletter">
-            I want to have the newsletter
-          </label>
-          <label>
-            <button type="submit">Sign Up</button>
-          </label>
-        </form>
-      </div>
-      <section class="accordion">
-        <!-- Accordion -->
-        <h1>FAQ</h1>
 
-        <div class="question" id="section1">Section 1</div>
-        <div class="answer">
-          <p>Lorem ipsum...</p>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 3</title>
+  <!-- dont forget to add a css file and link it here! -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-        <div class="question" id="section2">Section 2</div>
-        <div class="answer">
-          <p>Lorem ipsum...</p>
-        </div>
-      </section>
-    </article>
-    <!-- dont forget to link the javascript file here! -->
-    <script src="script.js"></script>
-  </body>
+<body>
+  <!-- video or image as a header is cool :) -->
+  <header>
+    <div class="hero-video">
+      <video preload autoplay muted loop playsinline>
+        <source src="videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+        <source src="videos/SampleVideo_1280x720_1mb.webm" type="video/webm">
+        <p>This browser doesn't support video...</p>
+      </video>
+    </div>
+    <div class="content">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Company logo">
+      </div>
+      <div class="links">
+        <p id="faq">FAQ</p>
+        <p id="sign-up">Sign Up</p>
+      </div>
+  </header>
+  </div>
+  <div class="welcome-text" id="wt">
+    <p>TEXT GOES HERE</p>
+  </div>
+  <article>
+    <!-- Signup form -->
+    <div class="signup-form" id="signup-form">
+      <form action="http://httpbin.org/anything" method="POST">
+        <p id="close-signup-form">X</p>
+        <label>
+          First Name
+          <input type="text" name="firstName" required>
+        </label>
+        <label>
+          Last Name
+          <input type="text" name="lastName" required>
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" required>
+        </label>
+        <label>
+          <input type="radio" name="student">
+          Student
+          <input type="radio" name="teacher">
+          Teacher
+        </label>
+        <label>
+          <input type="checkbox" name="tos" required>
+          I accept the <a href="#">Terms & Conditions</a>
+          <br />
+          <input type="checkbox" name="newsletter">
+          I want to have the newsletter
+        </label>
+        <label>
+          <button type="submit">Sign Up</button>
+        </label>
+      </form>
+    </div>
+    <section class="accordion" id="faq-section">
+      <p id="close-faq">X</p>
+      <!-- Accordion -->
+      <h1>FAQ</h1>
+
+      <div class="question" id="section1">Section 1</div>
+      <div class="answer">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <div class="question" id="section2">Section 2</div>
+      <div class="answer">
+        <p>Lorem ipsum...</p>
+      </div>
+    </section>
+  </article>
+  <!-- dont forget to link the javascript file here! -->
+  <script src="script.js"></script>
+</body>
+
 </html>
