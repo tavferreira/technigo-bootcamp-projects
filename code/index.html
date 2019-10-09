@@ -38,33 +38,40 @@
       <form action="http://httpbin.org/anything" method="POST">
         <p id="close-signup-form">X</p>
         <label>
-          First Name
-          <input type="text" name="firstName" required>
+          <input type="text" name="firstName" minlength="3" placeholder="First name (required)" required
+            title="First name should have at least 3 characters">
         </label>
         <label>
-          Last Name
-          <input type="text" name="lastName" required>
+          <input type="text" name="lastName" minlength="3" placeholder="Last name">
         </label>
         <label>
-          Password
-          <input type="password" name="password" required>
+          <input type="email" name="email" placeholder="E-mail  (required)" required>
         </label>
         <label>
-          <input type="radio" name="student">
-          Student
-          <input type="radio" name="teacher">
-          Teacher
+          <input type="password" name="password" minlength="8" placeholder="Password  (required)" required>
         </label>
-        <label>
-          <input type="checkbox" name="tos" required>
-          I accept the <a href="#">Terms & Conditions</a>
-          <br />
-          <input type="checkbox" name="newsletter">
-          I want to have the newsletter
-        </label>
-        <label>
-          <button type="submit">Sign Up</button>
-        </label>
+        <div class="radiobuttons-and-checkboxes">
+          <label>
+            <input type="radio" name="student">
+            Student<br />
+            <input type="radio" name="teacher">
+            Teacher
+          </label>
+        </div>
+        <div class="radiobuttons-and-checkboxes">
+          <label>
+            <input type="checkbox" name="tos" required>
+            I accept the <a href="#">Terms & Conditions</a>
+            <br />
+            <input type="checkbox" name="newsletter">
+            I want to have the newsletter
+          </label>
+        </div>
+        <div>
+          <label class="submit">
+            <button type="submit">Sign Up</button>
+          </label>
+        </div>
       </form>
     </div>
     <section class="accordion" id="faq-section">

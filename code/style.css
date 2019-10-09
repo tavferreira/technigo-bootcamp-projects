@@ -32,6 +32,11 @@ video {
   color: #fff;
   margin-right: 20px;
   background: #000;
+  height: 100%;
+}
+
+.content p:hover {
+  cursor: pointer;
 }
 
 .logo img {
@@ -46,32 +51,96 @@ video {
   height: 50%;
   width: 90%;
   color: #000;
-  background-color: rgba(211, 211, 211, 0.568);
+  background-color: rgba(211, 211, 211, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/*** ARTICLE CONTAINS BOTH FAQ AND SIGNUP FORM ***/
+/*** SIGNUP FORM ***/
 
 .signup-form {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 5%;
-  height: 50%;
+  height: 72%;
   width: 90%;
   color: #000;
-  background-color: rgba(211, 211, 211, 0.568);
+  background-color: rgba(211, 211, 211, 0.5);
   display: none;
-  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+form {
+  font-size: medium;
+  width: 90%;
+  padding: 0;
+}
+
+form p {
+  text-align: right;
+  font-weight: bold;
+}
+
+form p:hover {
+  cursor: pointer;
+}
+
+input[Type=text], 
+input[Type=email], 
+input[Type=password] {
+  margin: 0;
+  border: none;
+  height: 40px;
+  border-bottom: 1px solid black;
+  background-color: rgba(211, 211, 211, 0.65);
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+input[Type=text]:valid:not(:focus):not(:placeholder-shown),
+input[Type=email]:valid:not(:focus):not(:placeholder-shown),
+input[Type=password]:valid:not(:focus):not(:placeholder-shown)
+{
+  background-color: rgba(168, 207, 153, 0.6);
+  border-bottom: 2px solid green;  
+}
+
+input[Type=text]:invalid:not(:focus):not(:placeholder-shown), 
+input[Type=email]:invalid:not(:focus):not(:placeholder-shown), 
+input[Type=password]:invalid:not(:focus):not(:placeholder-shown)
+{
+  background-color: rgba(182, 117, 117, 0.6);
+  border-bottom: 2px solid red;
+}
+
+input[Type=text]:required:not(:focus):not(:placeholder-shown), 
+input[Type=email]:required:not(:focus):not(:placeholder-shown), 
+input[Type=password]:required:not(:focus):not(:placeholder-shown)
+{
+  background-color: rgba(182, 117, 117, 0.6);
+  border-bottom: 2px solid red;
+}
+
+.radiobuttons-and-checkboxes {
+  text-align: unset;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+
+  background-color: rgba(211, 211, 211, 0.8);
+}
+
+.submit {
+  display: flex;
   justify-content: center;
 }
 
-label {
-  display: block;
-  margin-bottom: 20px;
-  text-align: center;
-}
+/*** FAQ SECTION ***/
 
 section {
   position: absolute;
@@ -86,6 +155,7 @@ section {
 }
 
 /*** FAQ CLASSES ***/
+
 .question {
   background: teal;
   margin-bottom: 10px;
@@ -113,6 +183,7 @@ this can be used for the FAQ-accordion. read more here: https://www.w3schools.co
 }
 
 /** MEDIA QUERIES**/
+
 @media (min-width: 650px) {
   video {
     margin-top: 0px;
@@ -135,5 +206,8 @@ this can be used for the FAQ-accordion. read more here: https://www.w3schools.co
 }
 
 @media (min-width: 900px) {
-
+  .signup-form {
+    width: 30%;
+    height: 60%;
+  }
 }
