@@ -21,7 +21,7 @@
     </div>
     <div class="content">
       <div class="logo">
-        <img src="images/logo.svg" alt="Company logo">
+        <a href="https://www.technigo.io" target="_blank"><img src="images/logo.svg" alt="Company logo"></a>
       </div>
       <div class="links">
         <p id="faq">FAQ</p>
@@ -30,15 +30,19 @@
   </header>
   </div>
   <div class="welcome-text" id="wt">
-    <p>TEXT GOES HERE</p>
+    <h1>WHITE RABBIT PARADISE</h1>
+    <div>
+      <p>Forget your white rabbit duties and sign up for an amazing experience</p>
+      <p class="bigger">TODAY!</p>
+    </div>
   </div>
   <article>
     <!-- Signup form -->
     <div class="signup-form" id="signup-form">
       <form action="http://httpbin.org/anything" method="POST">
-        <p id="close-signup-form">X</p>
-        <label>
-          <input type="text" name="firstName" minlength="3" placeholder="First name (required)" required
+        <p class="close" id="close-signup-form">close [x]</p>
+        <label for="firstName">
+          <input type="text" id="firstName" name="firstName" minlength="3" placeholder="First name (required)" required
             title="First name should have at least 3 characters">
         </label>
         <label>
@@ -61,7 +65,8 @@
         <div class="radiobuttons-and-checkboxes">
           <label>
             <input type="checkbox" name="tos" required>
-            I accept the <a href="#">Terms & Conditions</a>
+            I accept the ToS
+            (<a href="#">read more here</a>)
             <br />
             <input type="checkbox" name="newsletter">
             I want to have the newsletter
@@ -75,16 +80,26 @@
       </form>
     </div>
     <section class="accordion" id="faq-section">
-      <p id="close-faq">X</p>
+      <p class="close" id="close-faq">close [x]</p>
       <!-- Accordion -->
       <h1>FAQ</h1>
-
       <div class="question" id="section1">Section 1</div>
       <div class="answer">
         <p>Lorem ipsum...</p>
       </div>
-
       <div class="question" id="section2">Section 2</div>
+      <div class="answer">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="question" id="section3">Section 3</div>
+      <div class="answer">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="question" id="section4">Section 4</div>
+      <div class="answer">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="question" id="section5">Section 5</div>
       <div class="answer">
         <p>Lorem ipsum...</p>
       </div>
