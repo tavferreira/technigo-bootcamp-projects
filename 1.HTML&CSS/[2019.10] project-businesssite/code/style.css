@@ -1,0 +1,281 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0px;
+  height: 100%;
+  color: #0025ff; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+}
+
+video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*** HEADER MENU ***/
+
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(255, 255, 255, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links {
+  display:flex;
+  height: 100%;
+}
+
+.content p {
+  margin-right: 20px;
+  height: 100%;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 2px 5px;
+  border-radius: 15px;
+}
+
+.content p:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline #fe3525;
+  background-color: #0025ff;
+}
+
+.logo img {
+  width: 50px;
+  padding: 20px;
+}
+
+/*** WELCOME TEXT CONTAINER ***/
+
+.welcome-text {
+  position: absolute;
+  top: 25%;
+  left: 2.5%;
+  height: 50%;
+  width: 90%;
+  color: #0025ff;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.welcome-text h1 {
+  text-decoration: underline #fe3525;
+  text-shadow: 5px 5px #ccc;
+}
+
+.bigger {
+  font-size: 75px;
+  font-weight: bold;
+  color: #fe3525;
+  padding: 0;
+  margin: 0px 0px 20px 0px;
+  text-shadow: 5px 5px black;
+}
+
+/*** SIGNUP FORM ***/
+
+.signup-form {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  height: 72%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+form {
+  font-size: small;
+  width: 90%;
+  padding: 0;
+}
+
+.close {
+  text-align: right;
+  font-weight: bold;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: #fe3525;
+}
+
+input[Type=text], 
+input[Type=email], 
+input[Type=password] {
+  margin: 0;
+  border: none;
+  height: 40px;
+  border-bottom: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.65);
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+input:valid:not(:focus):not(:placeholder-shown)
+{
+  background-color: rgba(168, 207, 153, 0.6);
+  border-bottom: 2px solid green;  
+}
+
+input:invalid:not(:focus):not(:placeholder-shown)
+{
+  background-color: rgba(182, 117, 117, 0.6);
+  border-bottom: 2px solid red;
+}
+
+.radiobuttons-and-checkboxes {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgba(0, 37, 255, 0.6);
+}
+
+.radiobuttons-and-checkboxes a {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+}
+
+.radiobuttons-and-checkboxes a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+/*** FAQ SECTION ***/
+
+section {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  height: 73%;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 0px 10px;
+}
+
+section h1 {
+  font-size: 40px;
+}
+
+/*** FAQ CLASSES ***/
+
+.question {
+  background-color: rgba(0, 37, 255, 0.6);
+  color: #fff;
+  font-weight: bold;
+  height: 30px;
+  padding: 5px 10px;
+  border-bottom: 2px solid #ffaec1;
+}
+
+.question:hover {
+  cursor: pointer;
+}
+
+.question:nth-of-type(1) {
+  border-top: 2px solid #ffaec1;
+}
+
+.answer {
+  display: none;
+  background-color: rgba(211, 211, 211, 0.7);
+  border-bottom: 2px solid #ffaec1;
+  padding: 0px 10px
+}
+
+/* the + sign is used to select the sibling that comes immediately next to the element you selected.
+in this case it is the div with the answer class next to the div with the active class.
+this can be used for the FAQ-accordion. read more here: https://www.w3schools.com/css/css_combinators.asp */
+
+.active + .answer {
+  /* some styling here */  
+  display: block;
+}
+
+/** MEDIA QUERIES**/
+
+@media (min-width: 650px) {
+  .content {
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+
+  .content p {
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  article {
+    flex-direction: row;
+  }
+
+  .welcome-text {
+    font-size: 20px;
+    left: 3.5%;
+  }
+
+  .welcome-text h1 {
+    font-size: 60px;
+  }
+
+  form {
+    font-size: medium;
+  }
+
+  .signup-form {
+    height: 65%;
+  }
+
+  section {
+    padding: 0px 25px;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .welcome-text {
+    top: 20%;
+    left: 60%;
+    width: 35%;
+    height: 65%;
+  }
+
+  .signup-form {
+    top: 20%;
+    left: 60%;
+    width: 35%;
+  }
+
+  section {
+    top: 20%;
+    left: 60%;
+    width: 31%;
+    height: 70%;
+  }
+}
