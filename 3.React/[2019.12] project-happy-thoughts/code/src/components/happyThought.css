@@ -1,0 +1,46 @@
+.thought {
+    background: #fff;
+}
+
+.thought-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Courier", monospace;
+    font-size: 16px;
+    margin: 0;
+}
+
+button.heart {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 4px;
+}
+
+button.heart::before {
+    content: "❤️    ";
+}
+
+button.heart:hover {
+    cursor: pointer;
+}
+
+.thought-bottom p {
+    color: #a3a3a3;
+}
+
+.thought-bottom p:nth-of-type(2) {
+    color: #cecece;
+}
+
+@media (max-width: 668px) {
+    h1 {
+        font-size: 22px;
+    }
+}
