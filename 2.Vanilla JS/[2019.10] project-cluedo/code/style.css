@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background: url('assets/table.jpg');
+  color: #ffffff;
+}
+
+p {
+  margin: 1px;
+  font-weight: 300;
+  margin: 0px 30px 10px 30px;
+}
+
+.cards {
+  margin: 50px auto;
+  width: 90%;
+  background: url('assets/green-velvet.jpg');
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+.killer-deck {
+  width: 270px;
+  height: 400px;
+  background: url('assets/card.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 16px;
+  margin: 15px 0px;
+}
+
+.weapon-deck {
+  width: 270px;
+  height: 400px;
+  background: url('assets/card.jpg');
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  background-color: #fded9f;
+}
+
+.room-deck {
+  width: 270px;
+  height: 400px;
+  background: url('assets/card.jpg');
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+#killerCard, #weaponCard, #roomCard {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 30px;
+}
+
+#killerName, #weaponName, #roomName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inner-outline {
+  outline: 2px solid #ffffff;
+  outline-offset: -30px;
+}
+
+img#killerImage {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+img#roomImage, img#weaponImage  {
+  border-radius: 15px;
+  margin: 50px 0px 20px 0px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #926ac7;
+  color: #ffffff;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px black;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: #74549f;
+}
+
+button:active {
+  outline: 0;
+  background: #74549f;
+  transform: translateY(4px);
+}
+
+@media (min-width: 650px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    margin-bottom: 20px;
+  }
+
+  .weapon-deck, .room-deck {
+    margin-top: 15px;
+  }
+}
