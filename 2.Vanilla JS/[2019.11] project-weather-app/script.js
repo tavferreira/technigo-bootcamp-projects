@@ -1,5 +1,5 @@
 // API Key
-const apiKey = "79a5016dc063fba5a823f15d23b3fb1f";
+const apiKey = "PASTE_YOUR_API_KEY_HERE";
 
 //Months translation
 const monthShortNames = [
